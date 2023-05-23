@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+    box-sizing: border-box;
+}
+
+#main-image-desktop {
+    display: none;
+}
+
+@media all and (min-width: 565px) {
+    #main-image-mobile {
+        display: none;
+    }
+
+    #main-image-desktop {
+        display: block;
+    }
+}

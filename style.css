@@ -71,7 +71,7 @@ body {
 }
 
 #main-image-desktop {
-    /* display: none; */
+    display: none;
 }
 
 #main-image-mobile {
